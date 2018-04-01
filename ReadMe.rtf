@@ -1,0 +1,41 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 \ul \ulc0 Requirements\
+
+\b0 \ulnone tensorflow || 1.1.0\
+keras || 2.1.5\
+pandas || 0.22.0\
+\
+\
+
+\b \ul Files\
+\
+\ulnone scale.py
+\b0 \
+Scales data from .csv file before training.\
+\
+
+\b train_model.py\
+
+\b0 Trains model using scaled data and creates 
+\b Logs
+\b0  which can be used on Tensorboard and trained_model.h5.\
+\
+
+\b predict.py\
+
+\b0 Uses 
+\b trained_model.h5
+\b0  to predict potential revenue a game will earn based on 
+\b proposed_new_product.csv\
+\
+
+\b0 To view logs in Tensorboard, tensorboard --logdir=game_revenue/logs\
+\
+\
+}
