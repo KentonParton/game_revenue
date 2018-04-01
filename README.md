@@ -1,7 +1,5 @@
 # game_revenue
 
-<<<<<<< HEAD
-=======
 ## Requirements
 ##### tensorflow==1.1.0
 ##### keras==2.1.5
@@ -19,6 +17,3 @@ Trains model using scaled data and creates Logs which can be used on Tensorboard
 Uses trained_model.h5 to predict potential revenue a game will earn based on proposed_new_product.csv
 
 To view logs in Tensorboard, tensorboard --logdir=game_revenue/logs
-
-
->>>>>>> 023afdef81cb463582ba2e2c8528054610963d87
