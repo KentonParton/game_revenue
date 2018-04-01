@@ -1,9 +1,9 @@
 # game_revenue
 
 ## Requirements
-tensorflow==1.1.0,
-keras==2.1.5,
-pandas==0.22.0,
+##### tensorflow==1.1.0
+##### keras==2.1.5
+##### pandas==0.22.0
 
 ## Files
 
